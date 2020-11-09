@@ -1,0 +1,358 @@
+[33mcommit 1599a678a256305ff756347cbdaf985dd73521d6[m[33m ([m[1;36mHEAD -> [m[1;32mquantri[m[33m, [m[1;31morigin/quantri[m[33m, [m[1;32mtable[m[33m)[m
+Author: jametuan <you@example.com>
+Date:   Tue Nov 3 09:41:47 2020 +0700
+
+    add treeRecord to base
+
+[33mcommit c916d8a7ab04d094a97cd2eb18c6458c65b6095c[m[33m ([m[1;31morigin/table[m[33m)[m
+Author: lakillah <lakillah.ptit@gmail.com>
+Date:   Sun Oct 25 12:37:58 2020 +0700
+
+    Initial commit
+
+[33mcommit a0497cfb963d803bd05c7d77c7655e25227cbf09[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: nguyenhuyen06 <huyensu266@gmail.com>
+Date:   Sun Oct 18 13:44:13 2020 +0700
+
+    bo.gitlab-ci.yml
+
+[33mcommit 2f4daef2c4ee781ea10381163999b379fc37fa2e[m
+Author: nguyenhuyen06 <huyensu266@gmail.com>
+Date:   Sun Oct 18 13:39:09 2020 +0700
+
+    xoa page khong can thiet
+
+[33mcommit c93b2c4afb54e67d01bd52ac3c39a7c66d2da81f[m
+Merge: fde34e01 b66907d0
+Author: nguyenhuyen06 <huyensu266@gmail.com>
+Date:   Fri Oct 16 14:56:56 2020 +0700
+
+    Merge branch 'dev-thanh-taikhoankhach' of https://gitlab.com/aisolution/SoTaySinhVien
+
+[33mcommit b66907d03df374b6269c9877d4cdd6d9deec81ae[m
+Author: thanhpq <phanquangthanh0217@gmail.com>
+Date:   Fri Oct 16 14:56:16 2020 +0700
+
+    fix tai khoan khach
+
+[33mcommit fde34e013b193e0074ce4c58fbac62fb1963c777[m
+Author: nguyenhuyen06 <huyensu266@gmail.com>
+Date:   Fri Oct 16 14:43:49 2020 +0700
+
+    merge tai khoan khach
+
+[33mcommit f738c46e80fc42801888aa646bdda2e5193f560c[m
+Merge: 1da89a33 f52e5c95
+Author: thanhpq <phanquangthanh0217@gmail.com>
+Date:   Fri Oct 16 14:39:07 2020 +0700
+
+    tai khoan khach
+
+[33mcommit 1da89a33d75c17db3743ad7cabffe566dd2358f2[m
+Author: thanhpq <phanquangthanh0217@gmail.com>
+Date:   Fri Oct 16 14:35:26 2020 +0700
+
+    tai khoan khach
+
+[33mcommit f52e5c952e5083f94ae5d27344486d8e92add010[m
+Author: nguyenhuyen06 <huyensu266@gmail.com>
+Date:   Thu Oct 15 17:57:22 2020 +0700
+
+    bo canion
+
+[33mcommit 23cef55bc926d175ebf2d690e58dd0a8a4200019[m
+Author: nguyenhuyen06 <huyensu266@gmail.com>
+Date:   Thu Oct 15 17:42:37 2020 +0700
+
+    Sua seo
+
+[33mcommit 402d5d241d9a49b373842a0641802ed5a4fcbb19[m
+Merge: c48a1ab6 1b80b6e0
+Author: nguyenhuyen06 <huyensu266@gmail.com>
+Date:   Thu Oct 15 17:14:45 2020 +0700
+
+    Merge branch 'master' of https://gitlab.com/aisolution/SoTaySinhVien
+
+[33mcommit c48a1ab6fc7bb9bad5da6607060a9e485da05bfd[m
+Author: nguyenhuyen06 <huyensu266@gmail.com>
+Date:   Thu Oct 15 17:13:38 2020 +0700
+
+    sua seo
+
+[33mcommit 1b80b6e0b39fba5eb68dc400bb573d1a243bf569[m
+Author: TomCatJS <mikelhpdatke@gmail.com>
+Date:   Sun Oct 11 11:43:17 2020 +0700
+
+    sua runners script v2
+
+[33mcommit cce56c036ce19e08cb185061c4c7c7c5979cccde[m
+Author: TomCatJS <mikelhpdatke@gmail.com>
+Date:   Sun Oct 11 11:40:49 2020 +0700
+
+    sua runners script
+
+[33mcommit 16df69e985e6e39d911b0f7d71a96e4736567d6c[m
+Merge: b0165d3f 85a1158e
+Author: nguyenhuyen06 <huyensu266@gmail.com>
+Date:   Sun Oct 11 08:59:57 2020 +0700
+
+    Merge branch 'master' of https://gitlab.com/aisolution/SoTaySinhVien
+
+[33mcommit 85a1158e34079db6183304d9433a52bda3c760c2[m
+Author: TomCatJS <mikelhpdatke@gmail.com>
+Date:   Sun Oct 11 08:58:39 2020 +0700
+
+    sua pipeline
+
+[33mcommit b0165d3f70eb081456cb02fab430594ba15cdc03[m
+Merge: 9531c353 98f6fcd9
+Author: nguyenhuyen06 <huyensu266@gmail.com>
+Date:   Sun Oct 11 08:58:32 2020 +0700
+
+    Merge branch 'master' of https://gitlab.com/aisolution/SoTaySinhVien
+
+[33mcommit 9531c3536f871de96199ea9e9b02bd826d1518df[m
+Author: nguyenhuyen06 <huyensu266@gmail.com>
+Date:   Sun Oct 11 08:58:11 2020 +0700
+
+    xoa device-id
+
+[33mcommit 98f6fcd99d6de95baedaf678cfaa7a1b3298314b[m
+Author: nguyenhuyen06 <huyensu266@gmail.com>
+Date:   Sun Oct 11 08:40:43 2020 +0700
+
+    doi package.json
+
+[33mcommit 92ace57d25d382deddb0d7454a41a6111dbfe257[m
+Author: nguyen huyen <huyensu266@gmail.com>
+Date:   Sat Sep 26 08:09:16 2020 +0700
+
+    sua van ban hd
+
+[33mcommit e0d1dc659b152d598d263a544958d6caa5a69ba6[m
+Author: nguyen huyen <huyensu266@gmail.com>
+Date:   Sat Sep 26 07:46:41 2020 +0700
+
+    sua van ban huong dan
+
+[33mcommit 041422d85788e061431c1ffd927dd10463ff8e4a[m
+Author: nguyen huyen <huyensu266@gmail.com>
+Date:   Sat Sep 26 06:02:02 2020 +0700
+
+    xoa thong tin chung sv gv
+
+[33mcommit e7740d32b30e1becd9fed1587fc7c8278e78496f[m
+Merge: 2ccadc12 b5d066a3
+Author: nguyen huyen <huyensu266@gmail.com>
+Date:   Fri Sep 25 08:46:19 2020 +0700
+
+    sua loi tkb:[ obj obj]
+
+[33mcommit b5d066a38d712372759111de044c9998ba5062ab[m
+Merge: 1ffe66f1 878fa9d9
+Author: nguyen huyen <huyensu266@gmail.com>
+Date:   Fri Sep 25 08:15:07 2020 +0700
+
+    sua pkg
+
+[33mcommit 1ffe66f1a04147a1d6b76d459f96960f880692d7[m
+Author: nguyen huyen <huyensu266@gmail.com>
+Date:   Fri Sep 25 08:12:07 2020 +0700
+
+    up len ver 2.0.15
+
+[33mcommit 3a870d427938cbdef297749affc73823c804bebf[m
+Author: nguyen huyen <huyensu266@gmail.com>
+Date:   Fri Sep 25 08:10:56 2020 +0700
+
+    upgrade len v2.10.14
+
+[33mcommit 1796bd18e3f4490d714e704467063df5e8d484c3[m
+Merge: 14e92a9f 142cea40
+Author: nguyen huyen <huyensu266@gmail.com>
+Date:   Fri Sep 25 08:10:08 2020 +0700
+
+    Merge branch 'dev-thanh' of https://gitlab.com/aisolution/SoTaySinhVien into master
+
+[33mcommit 142cea4070559c6497181b341a49128b6a0f4928[m
+Author: thanh_pq <phanquangthanh0217@gmail.com>
+Date:   Fri Sep 25 15:04:32 2020 +0700
+
+    sua form su kien
+
+[33mcommit 7deb0c67eac484d80dba20db21164c32e4d0faff[m
+Author: thanh_pq <phanquangthanh0217@gmail.com>
+Date:   Fri Sep 25 14:48:49 2020 +0700
+
+    fix su kien
+
+[33mcommit 102ca017389babbd7b050c66847f213e53b1adda[m
+Author: thanh_pq <phanquangthanh0217@gmail.com>
+Date:   Fri Sep 25 14:46:26 2020 +0700
+
+    fix bug su kien
+
+[33mcommit 50bc2b52a8e79e4189f5d8819eefc24fc76ef40c[m
+Author: thanh_pq <phanquangthanh0217@gmail.com>
+Date:   Fri Sep 25 14:38:02 2020 +0700
+
+    fix su kien
+
+[33mcommit 2ccadc12ff16b6d95ebf58c5aab06114c90c7070[m
+Merge: 01ebfe5a 142cea40
+Author: nguyen huyen <huyensu266@gmail.com>
+Date:   Fri Sep 25 08:08:49 2020 +0700
+
+    Merge branch 'dev-thanh' of https://gitlab.com/aisolution/SoTaySinhVien into huyen-ftu-sv
+
+[33mcommit 14e92a9f97dce1b2eb87980188e62130c7345ada[m
+Author: nguyen huyen <huyensu266@gmail.com>
+Date:   Fri Sep 25 07:54:21 2020 +0700
+
+    up len v2.0.15
+
+[33mcommit 696c4ea879617d96ac81fce1c713e6525d10f010[m
+Author: nguyen huyen <huyensu266@gmail.com>
+Date:   Fri Sep 25 07:52:34 2020 +0700
+
+    up len v2.0.14
+
+[33mcommit 774aa691ed7eee0aa5e2410c69f25811965692b7[m
+Author: nguyen huyen <huyensu266@gmail.com>
+Date:   Fri Sep 25 07:51:48 2020 +0700
+
+    up v2.0.14
+
+[33mcommit f96f182e220ed26795efb3abe18668e8cc92ab1d[m
+Merge: 3495b59d 7deb0c67
+Author: nguyen huyen <huyensu266@gmail.com>
+Date:   Fri Sep 25 07:50:17 2020 +0700
+
+    Merge branch 'dev-thanh' of https://gitlab.com/aisolution/SoTaySinhVien into master
+
+[33mcommit 3495b59d44b2ce8a8114dd89f100f3ad14ba6573[m
+Merge: cdaa584a 102ca017
+Author: nguyen huyen <huyensu266@gmail.com>
+Date:   Fri Sep 25 07:47:44 2020 +0700
+
+    Merge branch 'dev-thanh' of https://gitlab.com/aisolution/SoTaySinhVien into master
+
+[33mcommit cdaa584aefc76ef98c3db76ea5928a51a0036618[m
+Merge: a545c9d5 50bc2b52
+Author: nguyen huyen <huyensu266@gmail.com>
+Date:   Fri Sep 25 07:39:04 2020 +0700
+
+    Merge branch 'dev-thanh' of https://gitlab.com/aisolution/SoTaySinhVien into master
+
+[33mcommit 01ebfe5a64270fc5b638907c806e26d02f7da201[m
+Author: nguyen huyen <huyensu266@gmail.com>
+Date:   Fri Sep 25 07:38:34 2020 +0700
+
+    them search loai tin tuc
+
+[33mcommit 66897cff3e0f0a9607eb567cf01a7783d6503d09[m
+Merge: 4da6ec11 878fa9d9
+Author: nguyen huyen <huyensu266@gmail.com>
+Date:   Fri Sep 25 07:31:55 2020 +0700
+
+    Merge branch 'master' of https://gitlab.com/aisolution/SoTaySinhVien into huyen-ftu-sv
+
+[33mcommit 878fa9d9cae7a40677fa4281e49d4f1d9d252cc1[m
+Author: nguyenhuyen06 <huyensu266@gmail.com>
+Date:   Thu Sep 24 17:56:05 2020 +0700
+
+    up ver 2.0.13
+
+[33mcommit 0178359fa7d09ee9ac0bcf64e7f065cf23b971b1[m
+Merge: a545c9d5 b35bde62
+Author: nguyenhuyen06 <huyensu266@gmail.com>
+Date:   Thu Sep 24 17:50:43 2020 +0700
+
+    Merge branch 'dev-thanh' of https://gitlab.com/aisolution/SoTaySinhVien
+
+[33mcommit b35bde62c9d10e7ce87186537a120e5892a3ad90[m
+Author: thanh_pq <phanquangthanh0217@gmail.com>
+Date:   Thu Sep 24 17:03:30 2020 +0700
+
+    fix form su kien
+
+[33mcommit a545c9d5c28c1645ee96028fb68a6bf05341548a[m
+Author: nguyen huyen <huyensu266@gmail.com>
+Date:   Thu Sep 24 16:00:31 2020 +0700
+
+    up len ver 2.0.12
+
+[33mcommit 3264ce3ed0bf59efeb996446ed76e6c645bd9529[m
+Merge: 25fbbdee 03029b15
+Author: nguyen huyen <huyensu266@gmail.com>
+Date:   Thu Sep 24 15:57:30 2020 +0700
+
+    Merge branch 'dev-thanh' of https://gitlab.com/aisolution/SoTaySinhVien into master
+
+[33mcommit 03029b15c89bde8dda82add0e4756c8e5108d5d6[m
+Author: thanh_pq <phanquangthanh0217@gmail.com>
+Date:   Thu Sep 24 15:56:37 2020 +0700
+
+    fix bug su kien
+
+[33mcommit 25fbbdee9af1b3e729af647028e5ba073236b69c[m
+Author: nguyen huyen <huyensu266@gmail.com>
+Date:   Thu Sep 24 15:37:16 2020 +0700
+
+    up ver 2.0.11
+
+[33mcommit 5b9c10d1041a2c1681c90a343f0e464383ea8585[m
+Merge: 1502c576 8e2db63a
+Author: nguyen huyen <huyensu266@gmail.com>
+Date:   Thu Sep 24 15:36:01 2020 +0700
+
+    Merge branch 'dev-thanh' of https://gitlab.com/aisolution/SoTaySinhVien into master
+
+[33mcommit 8e2db63ad698db40c98a1f2a7edcfca368da2b76[m
+Author: thanh_pq <phanquangthanh0217@gmail.com>
+Date:   Thu Sep 24 15:35:17 2020 +0700
+
+    sua form su kien
+
+[33mcommit 1502c576578775a8167e19ad667ac60cc04c45f1[m
+Author: nguyen huyen <huyensu266@gmail.com>
+Date:   Thu Sep 24 15:30:11 2020 +0700
+
+    them get danh sach sk thoe tuan theo ngay sau khi them sk/ xoa sk
+
+[33mcommit b950ae2a37f8938399c33b04315e4ad6c854efd8[m
+Author: nguyen huyen <huyensu266@gmail.com>
+Date:   Thu Sep 24 14:58:58 2020 +0700
+
+    ghep su kien
+
+[33mcommit 4dc3c5aae1553745fce223d4826cdb7faa37f3c3[m
+Merge: 03aef82e a8cad199
+Author: nguyen huyen <huyensu266@gmail.com>
+Date:   Thu Sep 24 14:54:49 2020 +0700
+
+    Merge branch 'dev-thanh' of https://gitlab.com/aisolution/SoTaySinhVien into master
+
+[33mcommit 4da6ec1178be70cbdb6f431878de74fd2cca9d85[m
+Author: nguyen huyen <huyensu266@gmail.com>
+Date:   Thu Sep 24 14:53:42 2020 +0700
+
+    lm giao dien thong tin chung lơp hanh chinh
+
+[33mcommit cd74e0ffb53023aad38e300598f51045a4c8221a[m
+Author: nguyen huyen <huyensu266@gmail.com>
+Date:   Wed Sep 23 17:39:01 2020 +0700
+
+    sua css trang chu
+
+[33mcommit a420cdfcc90c5f024b32b3df4c4663e2a677c904[m
+Author: nguyen huyen <huyensu266@gmail.com>
+Date:   Wed Sep 23 17:11:28 2020 +0700
+
+    tao menu lop hanh chinh
+
+[33mcommit 21811cfb33aa46cf60eb1a95d48948c916e03829[m
+Author: nguyen huyen <huyensu266@gmail.com>
+Date:   Wed Sep 23 15:34:23 2020 +0700
+
+    sua danh sách file import
