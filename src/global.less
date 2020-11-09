@@ -1,0 +1,129 @@
+@import '~ant-design-pro/dist/ant-design-pro.css';
+@import '~antd/dist/antd.css';
+@import '~antd/lib/style/themes/default.less';
+html,
+body,
+#root {
+  height: 100%;
+}
+// #root {
+//   overflow-y: auto;
+// }
+.colorWeak {
+  filter: invert(80%);
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+
+canvas {
+  display: block;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.globalSpin {
+  width: 100%;
+  margin: 40px 0 !important;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+@media (max-width: @screen-xs) {
+  .ant-table {
+    width: 100%;
+    overflow-x: auto;
+    &-thead > tr,
+    &-tbody > tr {
+      > th,
+      > td {
+        white-space: pre;
+        > span {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+.cardTitle {
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 550;
+}
+
+.box {
+  border: 0 none;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.03);
+  box-sizing: border-box;
+  border-radius: 10px;
+  overflow: hidden;
+  background: white;
+}
+
+.centerBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notiNotReaded {
+  background-color: @item-active-bg;
+}
+
+// .ant-badge-status-text {
+//   font-size: 14px !important;
+// }
+// .antd-pro-charts-chart-card-chartCard .antd-pro-charts-chart-card-meta {
+//   font-size: 14px !important;
+// }
+
+//Tin tuc
+
+.tin-tuc-card {
+  width: 100%;
+  border-radius: 12px;
+  padding: 8px;
+  height: 100%;
+  box-shadow: 0 2px 6px rgba(163, 177, 191, 0.35);
+}
+
+.tin-tuc-card:hover {
+  box-shadow: 0 6px 12px rgba(163, 177, 191, 0.55);
+  cursor: pointer;
+}
+
+.tin-tuc-right {
+  padding-left: 30px !important;
+  @media screen and(max-width: 984px) {
+    padding-left: 0px !important;
+  }
+}
+
+.tt-container-image {
+  width: 100%;
+  padding-top: calc(100% - 24px);
+  position: relative;
+  min-height: 100px;
+  min-width: 100px;
+  // background-position: center center;
+  // background-size: cover;
+  // background-image: none;
+  // background-repeat: no-repeat;
+}
+
+.tin-tuc-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}

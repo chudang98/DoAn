@@ -1,0 +1,7 @@
+	
+User-agent: Googlebot-news
+Allow: /
+
+User-agent: *
+Allow: /
+

@@ -1,0 +1,23 @@
+{
+  "hosting": {
+    "public": "dist",
+    "rewrites": [
+      { "source": "/api/**", "function": "api" },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  },
+  "rewrites": [
+    {
+      "source": "/robots.txt",
+      "destination": "./src/public/robots.txt"
+    },
+    {
+      "source": "**",
+      "destination": "/index.html"
+    }
+  ]
+}
