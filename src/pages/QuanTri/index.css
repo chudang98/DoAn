@@ -1,0 +1,23 @@
+.main {
+    display: flex;
+    width: 100%;
+}
+
+.tree, .infor_section {
+    margin: 5px;
+    background-color: white;
+}
+
+.description {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+Button {
+    margin: 0 10px;
+}
+
+.section_main{
+    box-sizing: border-box;
+}
