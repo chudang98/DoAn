@@ -1,5 +1,7 @@
 import { GridContent } from '@ant-design/pro-layout';
-import { Card, Col, Form, Input, Row, Select, Table } from 'antd';
+import { Card, Col, Form, Input, Row, Select, Table, Button } from 'antd';
+const { TextArea } = Input;
+import { formItemLayout } from '@/utils/form';
 import React from 'react';
 import styles from '../index.less';
 const { Option } = Select;
@@ -22,11 +24,47 @@ const EditableRow = ({ form, index, ...props }) => (
 
 const handleValuesChange = () => {};
 
-function onChange(date, dateString) {
-  console.log(date, dateString);
-}
-
 class Form2C extends React.Component<Form2C_Props> {
+  state = {
+    lyLichBanThan: [
+      {
+        quanHe: '',
+        hoTen: '',
+        namSinh: '',
+        lyLich: '',
+      },
+      {
+        quanHe: '',
+        hoTen: '',
+        namSinh: '',
+        lyLich: '',
+      },
+      {
+        quanHe: '',
+        hoTen: '',
+        namSinh: '',
+        lyLich: '',
+      },
+      {
+        quanHe: '',
+        hoTen: '',
+        namSinh: '',
+        lyLich: 'adasd',
+      },
+    ],
+  };
+
+  themNguoi = () => {
+    this.setState({
+      lyLichBanThan: this.state.lyLichBanThan.push({
+        quanHe: '',
+        hoTen: '',
+        namSinh: '',
+        lyLich: '',
+      }),
+    });
+  };
+
   componentDidMount() {}
 
   render() {
@@ -37,8 +75,7 @@ class Form2C extends React.Component<Form2C_Props> {
       loading,
       visible,
     } = this.props;
-    const EditableFormRow = Form.create()(EditableRow);
-    const data = [{}];
+
     const columns = [
       {
         title: 'Mối quan hệ',
@@ -46,18 +83,42 @@ class Form2C extends React.Component<Form2C_Props> {
         width: '14%',
         editable: true,
         align: 'center',
+        render: (text, record) => (
+          <TextArea
+            value={text}
+            className={styles.form2c_table_input}
+            type="text"
+            placeholder="Mối quan hệ"
+          />
+        ),
       },
       {
         title: 'Họ và tên',
         dataIndex: 'hoTen',
         width: '20%',
-        render: (text, record) => <Input type="text" />,
+        editable: true,
+        render: (text, record) => (
+          <TextArea
+            value={text}
+            className={styles.form2c_table_input}
+            type="text"
+            placeholder="Họ và tên"
+          />
+        ),
       },
       {
         title: 'Năm sinh',
         dataIndex: 'namSinh',
         width: '10%',
         editable: true,
+        render: (text, record) => (
+          <TextArea
+            value={text}
+            className={styles.form2c_table_input}
+            type="text"
+            placeholder="Năm sinh"
+          />
+        ),
       },
       {
         title:
@@ -66,11 +127,19 @@ class Form2C extends React.Component<Form2C_Props> {
         width: '46%',
         editable: true,
         align: 'center',
+        render: (text, record) => (
+          <TextArea
+            className={styles.form2c_table_input}
+            type="text"
+            value={text}
+            placeholder="Quê quán, nghề nghiệp, chức danh, chức vụ, đơn vị công tác, học tập, nơi ở (trong, ngoài nước); thành viên các tổ chức chính trị - xã hội ...)"
+          />
+        ),
       },
     ];
     return (
       visible && (
-        <div className={styles.form2c}>
+        <div className={styles.form2c_form2}>
           <Card
             // bordered
             title={
@@ -96,13 +165,76 @@ class Form2C extends React.Component<Form2C_Props> {
               <Row type="flex" justify="space-around" align="middle">
                 <Col span={20}>
                   <h4 className={styles.form2c_name_form}>II. QUAN HỆ GIA ĐÌNH</h4>
-                  <Table
-                    bordered
-                    dataSource={data}
-                    columns={columns}
-                    pagination={false}
-                    className={styles.form2c_table}
-                  />
+                  <Form labelAlign="left" labelCol={{ span: 24 }}>
+                    <Form.Item
+                      wrapperCol={{
+                        span: 23,
+                        offset: 1,
+                      }}
+                      label={
+                        <span className={styles.form2c_label}>
+                          <span className={styles.form2c_red_text}>15. </span>Về bản thân: Cha, Mẹ,
+                          Vợ (hoặc chồng), các con, anh chị em ruột:
+                          <Button>Thêm người</Button>
+                        </span>
+                      }
+                    >
+                      {getFieldDecorator('hoTen', {
+                        // rules: [...rules.ten],
+                      })(
+                        <Table
+                          bordered
+                          dataSource={this.state.lyLichBanThan}
+                          columns={columns}
+                          pagination={false}
+                          className={styles.form2c_table}
+                        />
+                      )}
+                    </Form.Item>
+
+                    <Form.Item
+                      wrapperCol={{
+                        span: 23,
+                        offset: 1,
+                      }}
+                    >
+                      {getFieldDecorator(
+                        'hoTen',
+                        {}
+                      )(
+                        <Input.Group className={styles.form2c_input_addon}>
+                          <Col span={10} className={styles.textarea_addon}>
+                            Khai rõ: bị bắt, bị tù (từ ngày tháng năm nào đến ngày tháng năm nào, ở
+                            đâu), đã khai báo cho ai, những vấn đề gì? Bản thân có làm việc trong
+                            chế độ cũ (cơ quan, đơn vị nào, địa điểm, chức danh, chức vụ, thời gian
+                            làm việc ....)
+                          </Col>
+                          <Col span={14} className={styles.h_100}>
+                            <Input.TextArea className={styles.textarea} />
+                          </Col>
+                        </Input.Group>
+                      )}
+                      {getFieldDecorator(
+                        'hoTen',
+                        {}
+                      )(
+                        <Input.Group className={styles.form2c_input_addon}>
+                          <Col span={10} className={styles.textarea_addon}>
+                            <p>
+                              Khai rõ: bị bắt, bị tù (từ ngày tháng năm nào đến ngày tháng năm nào,
+                              ở đâu), đã khai báo cho ai, những vấn đề gì? Bản thân có làm việc
+                              trong chế độ cũ (cơ quan, đơn vị nào, địa điểm, chức danh, chức vụ,
+                              thời gian làm việc ....)
+                            </p>
+                          </Col>
+                          <Col span={14} className={styles.textarea}>
+                            <Input.TextArea className={styles.textarea} />
+                          </Col>
+                        </Input.Group>
+                      )}
+                    </Form.Item>
+                    {/* <Form.Item></Form.Item> */}
+                  </Form>
                 </Col>
               </Row>
             </GridContent>
